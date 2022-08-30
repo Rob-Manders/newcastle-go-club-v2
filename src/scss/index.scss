@@ -4,6 +4,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  outline: none;
 }
 
 html,
@@ -16,11 +17,10 @@ body {
   background-color: #e0e0e0;
   font-family: 'Poppins', sans-serif;
   color: rgba(0, 0, 0, 0.9);
-  text-align: center;
 }
 
 h1,
 h2,
 h3 {
-  color: #b05015;
+  color: rgb(176, 80, 21);
 }

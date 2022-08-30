@@ -1,0 +1,7 @@
+Instagram Colour Gradient
+
+Yellow:		#ffd600
+Orange:		#ff7a00
+Pink:		#ff0069
+Violet:		#d300c5
+Purple:		#7638fa
