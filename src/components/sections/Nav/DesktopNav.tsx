@@ -1,6 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
 
+interface Props {
+  className: string
+}
+
 const DesktopNavLinks = styled.nav`
   display: flex;
 
@@ -28,9 +32,9 @@ const DesktopNavLinks = styled.nav`
   }
 `
 
-export default function DesktopNav(): JSX.Element {
+export default function DesktopNav({ className }: Props): JSX.Element {
   return (
-    <DesktopNavLinks>
+    <DesktopNavLinks className={className}>
       <a href='#home'>Home</a>
       <a href='#meetings'>Meetings</a>
       <a href='#contact'>Contact</a>
