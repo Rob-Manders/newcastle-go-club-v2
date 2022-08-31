@@ -6,10 +6,11 @@ interface Props {
 }
 
 const Container = styled.div`
-  max-width: 1200px;
+  position: relative;
+  max-width: 1400px;
   margin: 0 auto;
 `
 
-export default function ContentContainer({ children }: Props): JSX.Element {
+export default function SiteContainer({ children }: Props): JSX.Element {
   return <Container>{children}</Container>
 }

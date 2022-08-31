@@ -5,9 +5,10 @@ interface Props {
   children: ReactNode
 }
 
-const Container = styled.div`
-  max-width: 1400px;
-  margin: 0 auto;
+const Container = styled.main`
+  max-width: 1200px;
+  margin: 0 1rem;
+  margin-top: 3rem;
 `
 
 export default function PageContainer({ children }: Props): JSX.Element {

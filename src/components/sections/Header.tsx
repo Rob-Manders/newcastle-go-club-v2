@@ -6,16 +6,14 @@ import MobileMenuIcon from '../elements/MobileMenuIcon'
 import MobileNav from './Nav/MobileNav'
 
 const HeaderContainer = styled.header`
-  position: relative;
+  position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: #e0e0e0;
-  min-height: 100px;
-  padding: 1.5rem 1.5rem;
-
-  .header-inner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
+  padding: 1rem 1rem;
+  top: 0;
+  width: 100%;
 
   .desktop-nav {
     display: none;
@@ -34,7 +32,7 @@ const HeaderContainer = styled.header`
   }
 
   @media (min-width: 1500px) {
-    padding: 0;
+    padding: 1.5rem 0;
   }
 
   &::after {
@@ -55,19 +53,17 @@ const HeaderContainer = styled.header`
 `
 
 export default function Header(): JSX.Element {
-  const [menuOpen, setMenuOpen] = useState<boolean>(true)
+  const [menuOpen, setMenuOpen] = useState<boolean>(false)
 
   return (
     <HeaderContainer>
-      <div className='header-inner'>
-        <Logo />
-        <MobileMenuIcon
-          className='mobile-menu-icon'
-          menuOpen={menuOpen}
-          action={() => setMenuOpen(prevState => !prevState)}
-        />
-        <DesktopNav className='desktop-nav' />
-      </div>
+      <Logo />
+      <MobileMenuIcon
+        className='mobile-menu-icon'
+        menuOpen={menuOpen}
+        action={() => setMenuOpen(prevState => !prevState)}
+      />
+      <DesktopNav className='desktop-nav' />
       {menuOpen && <MobileNav />}
     </HeaderContainer>
   )
