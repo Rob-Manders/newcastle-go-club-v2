@@ -36,6 +36,7 @@ const Button = styled.a`
   &:hover,
   &:focus {
     background-color: rgb(176, 80, 21);
+    color: rgb(255, 255, 255);
   }
 
   @media (min-width: 1200px) {

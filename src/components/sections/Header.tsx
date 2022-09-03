@@ -6,6 +6,7 @@ import MobileMenuIcon from '../elements/MobileMenuIcon'
 import MobileNav from './Nav/MobileNav'
 
 const HeaderContainer = styled.header`
+  z-index: 10;
   position: sticky;
   display: flex;
   align-items: center;
