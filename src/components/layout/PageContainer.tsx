@@ -7,7 +7,7 @@ interface Props {
 
 const Container = styled.main`
   max-width: 1200px;
-  margin: 3rem 1rem 0;
+  margin: 2rem 1rem 0;
 
   @media (min-width: 550px) {
     padding: 1.5rem;

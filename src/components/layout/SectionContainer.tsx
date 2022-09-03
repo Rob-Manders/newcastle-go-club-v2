@@ -7,7 +7,11 @@ interface Props {
 }
 
 const Section = styled.section`
-  scroll-margin-top: calc(120px + 3rem);
+  scroll-margin-top: calc(120px + 1rem);
+
+  @media (min-width: 550px) {
+    scroll-margin-top: calc(120px + 3rem);
+  }
 `
 
 export default function SectionContainer({ children, id }: Props): JSX.Element {

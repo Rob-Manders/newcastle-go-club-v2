@@ -4,6 +4,10 @@ import SectionContainer from '../layout/SectionContainer'
 import clubImage from '../../assets/images/club-02.jpg'
 
 const ContactContainer = styled.div`
+  .content {
+    margin-bottom: 2rem;
+  }
+
   img {
     width: 100%;
     max-width: 420px;
@@ -16,6 +20,7 @@ const ContactContainer = styled.div`
 
     .content {
       margin-right: 3.5rem;
+      margin-bottom: 0;
     }
   }
 `

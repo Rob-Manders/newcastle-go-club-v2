@@ -11,7 +11,11 @@ const Divider = styled.div`
     rgba(0, 0, 0, 0.2) 75%,
     rgba(0, 0, 0, 0) 100%
   );
-  margin: 80px auto;
+  margin: 40px auto;
+
+  @media (min-width: 550px) {
+    margin: 80px auto;
+  }
 `
 
 export default function PageDivider(): JSX.Element {

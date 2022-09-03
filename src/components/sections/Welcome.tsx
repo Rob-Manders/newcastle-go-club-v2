@@ -11,6 +11,7 @@ const WelcomeSection = styled.div`
   .content {
     display: flex;
     flex-direction: column;
+    margin-top: 1rem;
 
     h2 {
       display: flex;
@@ -54,6 +55,7 @@ const WelcomeSection = styled.div`
 
     .content {
       margin-right: 3.5rem;
+      margin-top: 0;
 
       .h2 {
         margin: 0;
