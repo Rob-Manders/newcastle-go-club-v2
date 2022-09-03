@@ -26,6 +26,11 @@ const WelcomeSection = styled.div`
       }
     }
 
+    p {
+      margin: 0;
+      margin-top: 1rem;
+    }
+
     .social-buttons {
       display: flex;
       margin: 1rem auto;
