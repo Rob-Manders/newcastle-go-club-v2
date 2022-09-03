@@ -4,6 +4,8 @@ import Map from '../elements/Map'
 import SectionContainer from '../layout/SectionContainer'
 
 const MeetingsSection = styled.div`
+  scroll-margin-top: calc(120px + 3rem);
+
   .content {
     h2 {
       margin: 0;
@@ -35,7 +37,7 @@ const MeetingsSection = styled.div`
 export default function Meetings(): JSX.Element {
   return (
     <SectionContainer>
-      <MeetingsSection>
+      <MeetingsSection id='meetings'>
         <div className='content'>
           <h2>Meetings</h2>
           <p className='time'>7pm every Thursday</p>

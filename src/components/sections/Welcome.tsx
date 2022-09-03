@@ -7,6 +7,8 @@ import MeetupButton from '../elements/SocialButtons/MeetupButton'
 import InstagramButton from '../elements/SocialButtons/InstagramButton'
 
 const WelcomeSection = styled.div`
+  scroll-margin-top: calc(120px + 3rem);
+
   .content {
     display: flex;
     flex-direction: column;
@@ -62,7 +64,7 @@ const WelcomeSection = styled.div`
 export default function Welcome(): JSX.Element {
   return (
     <SectionContainer>
-      <WelcomeSection>
+      <WelcomeSection id='home'>
         <img src={clubImage} />
 
         <div className='content'>
