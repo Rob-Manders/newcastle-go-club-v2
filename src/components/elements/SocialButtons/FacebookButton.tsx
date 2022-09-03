@@ -8,6 +8,7 @@ interface Props {
 
 const Button = styled.a`
   position: relative;
+  z-index: -10;
   display: flex;
   align-items: center;
   background-color: rgb(24, 119, 242);
@@ -41,7 +42,7 @@ const Button = styled.a`
     background-color: rgb(176, 80, 21);
   }
 
-  @media (min-width: 1400px) {
+  @media (min-width: 1200px) {
     width: 175px;
 
     .button-text {

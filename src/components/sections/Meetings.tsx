@@ -4,8 +4,6 @@ import Map from '../elements/Map'
 import SectionContainer from '../layout/SectionContainer'
 
 const MeetingsSection = styled.div`
-  scroll-margin-top: calc(120px + 3rem);
-
   .content {
     h2 {
       margin: 0;
@@ -20,11 +18,10 @@ const MeetingsSection = styled.div`
     .place {
       font-size: 2rem;
       margin: 0;
-      opacity: 0.8;
     }
   }
 
-  @media (min-width: 1400px) {
+  @media (min-width: 900px) {
     display: flex;
     flex-direction: row-reverse;
 
@@ -36,8 +33,8 @@ const MeetingsSection = styled.div`
 
 export default function Meetings(): JSX.Element {
   return (
-    <SectionContainer>
-      <MeetingsSection id='meetings'>
+    <SectionContainer id='meetings'>
+      <MeetingsSection>
         <div className='content'>
           <h2>Meetings</h2>
           <p className='time'>7pm every Thursday</p>
@@ -52,7 +49,7 @@ export default function Meetings(): JSX.Element {
             just round the corner for both buses and the Metro.
           </p>
           <p>
-            You can find out more about the Benton Ale House on their&nbsp;
+            You can find out more about the Benton Ale House on their{' '}
             <a href='https://en-gb.facebook.com/TheBentonAleHouseAtLongBenton/'>
               Facebook Page
             </a>

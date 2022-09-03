@@ -5,7 +5,8 @@ module.exports = {
   entry: './src/index.tsx',
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Newcastle Go Club'
+      title: 'Newcastle Go Club',
+      favicon: './src/assets/favicon.png'
     })
   ],
   module: {

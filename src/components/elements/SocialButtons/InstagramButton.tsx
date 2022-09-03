@@ -45,7 +45,7 @@ const Button = styled.a`
     background: rgb(176, 80, 21);
   }
 
-  @media (min-width: 1400px) {
+  @media (min-width: 1200px) {
     width: 175px;
 
     .instagram-icon {

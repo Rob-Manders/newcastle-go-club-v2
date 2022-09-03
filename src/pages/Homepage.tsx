@@ -4,6 +4,7 @@ import PageContainer from '../components/layout/PageContainer'
 import Welcome from '../components/sections/Welcome'
 import Map from '../components/elements/Map'
 import Meetings from '../components/sections/Meetings'
+import Contact from '../components/sections/Contact'
 
 export default function Homepage(): JSX.Element {
   return (
@@ -12,9 +13,7 @@ export default function Homepage(): JSX.Element {
       <PageDivider />
       <Meetings />
       <PageDivider />
-      {/* 
-				Contact
-			*/}
+      <Contact />
     </PageContainer>
   )
 }

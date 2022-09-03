@@ -4,7 +4,6 @@ import SectionContainer from '../layout/SectionContainer'
 import clubImage from '../../assets/images/club-01.jpg'
 import FacebookButton from '../elements/SocialButtons/FacebookButton'
 import MeetupButton from '../elements/SocialButtons/MeetupButton'
-import InstagramButton from '../elements/SocialButtons/InstagramButton'
 
 const WelcomeSection = styled.div`
   scroll-margin-top: calc(120px + 3rem);
@@ -19,7 +18,6 @@ const WelcomeSection = styled.div`
       font-size: 2rem;
       font-weight: 700;
       margin: 0;
-      margin-top: 1.5rem;
 
       span {
         color: rgba(0, 0, 0, 0.9);
@@ -40,10 +38,12 @@ const WelcomeSection = styled.div`
 
   img {
     width: 100%;
+    max-width: 420px;
     border-radius: 10px;
+    object-fit: cover;
   }
 
-  @media (min-width: 1400px) {
+  @media (min-width: 900px) {
     display: flex;
     flex-direction: row-reverse;
 
@@ -63,9 +63,9 @@ const WelcomeSection = styled.div`
 
 export default function Welcome(): JSX.Element {
   return (
-    <SectionContainer>
-      <WelcomeSection id='home'>
-        <img src={clubImage} />
+    <SectionContainer id='home'>
+      <WelcomeSection>
+        <img src={clubImage} alt='Jamie and Lewis playing Go' />
 
         <div className='content'>
           <h2>
@@ -81,8 +81,8 @@ export default function Welcome(): JSX.Element {
             If you have never played Go before then don’t worry. We have
             everything you need and would be happy to teach you. If you’re not
             sure what Go is, you can find our more at the British Go
-            Association’s&nbsp;
-            <a href='https://www.britgo.org/whatisgo'>About Go</a> page.
+            Association’s <a href='https://www.britgo.org/whatisgo'>About Go</a>{' '}
+            page.
           </p>
 
           <div className='social-buttons'>
@@ -93,10 +93,6 @@ export default function Welcome(): JSX.Element {
             <MeetupButton
               className='social-button'
               url='https://www.meetup.com/en-AU/newcastle-go-club/'
-            />
-            <InstagramButton
-              className='social-button'
-              url='https://www.instagram.com/'
             />
           </div>
         </div>
