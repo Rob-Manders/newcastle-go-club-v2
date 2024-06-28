@@ -6,12 +6,15 @@ import Map from '../components/elements/Map'
 import Meetings from '../components/sections/Meetings'
 import Contact from '../components/sections/Contact'
 import Announcement from '../components/sections/Announcement'
+import Tournament from '../components/sections/Tournament'
 
 export default function Homepage(): JSX.Element {
   return (
     <PageContainer>
       <Welcome />
-      <PageDivider />
+      {/* <PageDivider /> */}
+      <Tournament />
+      {/* <PageDivider /> */}
       <Meetings />
       <PageDivider />
       <Contact />
