@@ -40,8 +40,9 @@ export default function Tournament() {
 
           <p>
             <strong>Friday 30th Evening: </strong>
-            Meeting in pub function room for casual Go. Details TBC.
           </p>
+
+          <p>Meeting in pub function room for casual Go. Details TBC.</p>
 
           <p>
             <strong>Saturday 31st August</strong>
