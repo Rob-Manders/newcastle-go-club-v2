@@ -20,7 +20,7 @@ const HeaderContainer = styled.header`
     display: none;
   }
 
-  @media (min-width: 550px) {
+  @media (min-width: 750px) {
     padding: 1.5rem 2rem;
 
     .mobile-menu-icon {

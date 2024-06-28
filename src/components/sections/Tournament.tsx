@@ -5,7 +5,7 @@ import Map from '../elements/Map'
 
 const TournamentSection = styled.div`
   background-color: #f3f3f3;
-  margin: 80px auto;
+  margin: 40px auto;
   padding: 2rem;
   border-radius: 10px;
 
@@ -16,6 +16,10 @@ const TournamentSection = styled.div`
       width: 100%;
       flex-grow: 1;
     }
+  }
+
+  @media (min-width: 750px) {
+    margin: 80px auto;
   }
 `
 

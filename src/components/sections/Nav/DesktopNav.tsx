@@ -36,6 +36,7 @@ export default function DesktopNav({ className }: Props): JSX.Element {
   return (
     <DesktopNavLinks className={className}>
       <a href='#home'>Home</a>
+      <a href='#tournament'>Tournament 2024</a>
       <a href='#meetings'>Meetings</a>
       <a href='#contact'>Contact</a>
     </DesktopNavLinks>
