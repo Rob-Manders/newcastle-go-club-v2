@@ -43,7 +43,7 @@ export default function MobileNav(): JSX.Element {
   return (
     <MobileNavContainer>
       <a href='#home'>Home</a>
-      <a href='#tournament'>Tournament 2024</a>
+      <a href='#tournament'>Tournament 2025</a>
       <a href='#meetings'>Meetings</a>
       <a href='#contact'>Contact</a>
     </MobileNavContainer>

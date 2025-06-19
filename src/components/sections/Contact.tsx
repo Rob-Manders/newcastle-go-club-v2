@@ -37,9 +37,8 @@ export default function Contact(): JSX.Element {
           </p>
           <p>
             You can reach out to us on our{' '}
-            <a href='https://www.facebook.com/NewcastleGoClub/'>Facebook</a> or{' '}
-            <a href='https://www.meetup.com/en-AU/newcastle-go-club/'>Meetup</a>{' '}
-            pages, or email Tom directly at{' '}
+            <a href='https://www.facebook.com/NewcastleGoClub/'>Facebook</a>{' '}
+            page, or email Tom directly at{' '}
             <a href='mailto:tomcoulthard@nhs.net'>tomcoulthard@nhs.net</a>.
           </p>
         </div>

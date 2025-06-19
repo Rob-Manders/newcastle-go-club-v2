@@ -3,7 +3,6 @@ import styled from 'styled-components'
 import SectionContainer from '../layout/SectionContainer'
 import clubImage from '../../assets/images/club-01.jpg'
 import FacebookButton from '../elements/SocialButtons/FacebookButton'
-import MeetupButton from '../elements/SocialButtons/MeetupButton'
 
 const WelcomeSection = styled.div`
   scroll-margin-top: calc(120px + 3rem);
@@ -96,10 +95,6 @@ export default function Welcome(): JSX.Element {
             <FacebookButton
               className='social-button'
               url='https://www.facebook.com/NewcastleGoClub/'
-            />
-            <MeetupButton
-              className='social-button'
-              url='https://www.meetup.com/en-AU/newcastle-go-club/'
             />
           </div>
         </div>

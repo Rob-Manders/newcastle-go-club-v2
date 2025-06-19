@@ -28,8 +28,8 @@ export default function Tournament() {
     <SectionContainer id='tournament'>
       <TournamentSection>
         <div className='content'>
-          <h2>Go Tournament 2024</h2>
-          <h3>Saturday 31st August - Sunday 1st September</h3>
+          <h2>Go Tournament 2025</h2>
+          <h3>Saturday 30th August - Sunday 31st August</h3>
 
           <p>We are pleased to announce Newcastle's first Go tournament!</p>
 
@@ -43,13 +43,13 @@ export default function Tournament() {
           </p>
 
           <p>
-            <strong>Friday 30th Evening: </strong>
+            <strong>Friday 29th Evening: </strong>
           </p>
 
           <p>Meeting in pub function room for casual Go. Details TBC.</p>
 
           <p>
-            <strong>Saturday 31st August</strong>
+            <strong>Saturday 30th August</strong>
             <ul>
               <li>9:30 - Registration</li>
               <li>10:00 - Three rounds ending at 17:15</li>
@@ -59,7 +59,7 @@ export default function Tournament() {
           </p>
 
           <p>
-            <strong>Sunday 1st September</strong>
+            <strong>Sunday 31st August</strong>
 
             <ul>
               <li>10:00 - 2 Rounds</li>
